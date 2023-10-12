@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-COPY hls.js /var/www/hls.js
+COPY regexper /var/www/regexper
 COPY entrypoint.sh /opt/entrypoint.sh
 
 ENV PORT=3000
