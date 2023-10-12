@@ -6,7 +6,7 @@ server {
     listen ${PORT} default_server;
     listen [::]:${PORT} default_server;
     location / {
-        root   /var/www/hls.js;
+        root   /var/www/regexper;
         index  index.html;
     }
     location ${WSPATH} {
